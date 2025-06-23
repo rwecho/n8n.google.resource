@@ -202,7 +202,7 @@ export default function Home() {
               <ul className="space-y-2 text-gray-300">
                 <li>
                   <a
-                    href="/policy"
+                    href="https://n8n-res.0x2a.top/policy"
                     className="hover:text-white transition-colors"
                   >
                     隐私政策
@@ -210,7 +210,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="/terms"
+                    href="https://n8n-res.0x2a.top/terms"
                     className="hover:text-white transition-colors"
                   >
                     服务条款
