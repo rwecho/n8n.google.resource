@@ -1,4 +1,15 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "服务条款",
+  description: "n8n Google Resource 服务条款 - 了解使用我们平台的条款和条件。",
+  openGraph: {
+    title: "服务条款 | n8n Google Resource",
+    description:
+      "n8n Google Resource 服务条款 - 了解使用我们平台的条款和条件。",
+  },
+};
 
 export default function Terms() {
   return (
