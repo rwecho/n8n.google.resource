@@ -262,8 +262,31 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-              <p>&copy; 2025 n8n Google Resource. 保留所有权利。</p>
+            <div>
+              <h4 className="font-semibold mb-4">法律信息</h4>
+              <ul className="space-y-2 text-gray-300">
+                <li>
+                  <a
+                    href="https://n8n-res.0x2a.top/policy"
+                    className="hover:text-white transition-colors"
+                  >
+                    隐私政策
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://n8n-res.0x2a.top/terms"
+                    className="hover:text-white transition-colors"
+                  >
+                    服务条款
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    联系我们
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </footer>
